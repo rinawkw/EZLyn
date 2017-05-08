@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.rinawkw.fp_imk.Pangkalan1Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/tran"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:src="@drawable/halte"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/tran2"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_below="@+id/profile"
+            android:paddingLeft="30dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="32dp"
+                android:layout_height="57dp"
+                android:layout_above="@+id/linearLayout2"
+                android:layout_marginBottom="66dp"
+                android:src="@drawable/haltee" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.06"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Halte UHT"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_below="@+id/profile"
+            android:layout_weight="0.32"
+            android:paddingLeft="30dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/linearLayout2"
+                android:src="@drawable/loc" />
+
+            <TextView
+                android:id="@+id/hp"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Jalan Arif rahman Hakim 66, Surabaya"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_below="@+id/profile"
+            android:layout_weight="0.04"
+            android:paddingLeft="30dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="66dp"
+                android:layout_above="@+id/linearLayout2"
+                android:layout_marginBottom="66dp"
+                android:src="@drawable/penumpang" />
+
+            <TextView
+                android:id="@+id/plat"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/profile"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="5"
+                android:layout_marginLeft="10dp"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

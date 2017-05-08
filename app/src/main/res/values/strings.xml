@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EZLyn</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="lupa"><u>Lupa kata sandi</u></string>
+    <string name="daftar"><u>DAFTAR</u></string>
+    <string name="masuk"><u>MASUK</u></string>
+</resources>
